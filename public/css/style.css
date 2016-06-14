@@ -1,0 +1,76 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	width:100%;
+}
+
+body {
+    background: url(../wallpaper.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+html::after {
+    content: "";
+    background-color: black;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+
+li {
+    font-size: 24px;
+    margin-right: 35px;
+    text-shadow: 2px 2px 8px black;
+    display: inline;
+    font-weight: bold;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+ button {
+    text-shadow: 2px 2px 8px black;
+    background-color: rgba(0, 0, 0, .2);
+    border: solid lightgreen;
+    border-radius:2em;
+    font-size: 28px;
+    color: white;
+}
+
+h1 {
+    font-size:48px;
+}
+
+#container {
+    margin: 0 auto;
+}
+
+#navi {
+    width: 100%;
+}
